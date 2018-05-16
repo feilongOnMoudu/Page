@@ -27,7 +27,7 @@
 #pragma mark - NinaParaArrays
 - (NSArray *)ninaTitleArray {
     return @[
-             @"大连市",
+             @"大连市66666",
              @"甘井子",
              @"郑州",@"大连市",
              @"甘井子",
