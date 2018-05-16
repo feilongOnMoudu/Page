@@ -13,6 +13,12 @@
 		515D1C1120A94E2A000C2776 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 515D1C1020A94E2A000C2776 /* Assets.xcassets */; };
 		515D1C1420A94E2A000C2776 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 515D1C1220A94E2A000C2776 /* LaunchScreen.storyboard */; };
 		515D1C1720A94E2A000C2776 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 515D1C1620A94E2A000C2776 /* main.m */; };
+		515D1C2720A94EAF000C2776 /* NinaBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 515D1C2120A94EAF000C2776 /* NinaBaseView.m */; };
+		515D1C2820A94EAF000C2776 /* NinaPagerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 515D1C2320A94EAF000C2776 /* NinaPagerView.m */; };
+		515D1C2920A94EAF000C2776 /* UIView+ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 515D1C2620A94EAF000C2776 /* UIView+ViewController.m */; };
+		515D1C2C20A95146000C2776 /* VC1.m in Sources */ = {isa = PBXBuildFile; fileRef = 515D1C2B20A95146000C2776 /* VC1.m */; };
+		515D1C2F20A95151000C2776 /* VC2.m in Sources */ = {isa = PBXBuildFile; fileRef = 515D1C2E20A95151000C2776 /* VC2.m */; };
+		515D1C3220A95416000C2776 /* VC3.m in Sources */ = {isa = PBXBuildFile; fileRef = 515D1C3120A95416000C2776 /* VC3.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +32,19 @@
 		515D1C1320A94E2A000C2776 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		515D1C1520A94E2A000C2776 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		515D1C1620A94E2A000C2776 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		515D1C2020A94EAF000C2776 /* NinaBaseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NinaBaseView.h; sourceTree = "<group>"; };
+		515D1C2120A94EAF000C2776 /* NinaBaseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NinaBaseView.m; sourceTree = "<group>"; };
+		515D1C2220A94EAF000C2776 /* NinaPagerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NinaPagerView.h; sourceTree = "<group>"; };
+		515D1C2320A94EAF000C2776 /* NinaPagerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NinaPagerView.m; sourceTree = "<group>"; };
+		515D1C2420A94EAF000C2776 /* UIParameter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIParameter.h; sourceTree = "<group>"; };
+		515D1C2520A94EAF000C2776 /* UIView+ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ViewController.h"; sourceTree = "<group>"; };
+		515D1C2620A94EAF000C2776 /* UIView+ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ViewController.m"; sourceTree = "<group>"; };
+		515D1C2A20A95146000C2776 /* VC1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VC1.h; sourceTree = "<group>"; };
+		515D1C2B20A95146000C2776 /* VC1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VC1.m; sourceTree = "<group>"; };
+		515D1C2D20A95151000C2776 /* VC2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VC2.h; sourceTree = "<group>"; };
+		515D1C2E20A95151000C2776 /* VC2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VC2.m; sourceTree = "<group>"; };
+		515D1C3020A95416000C2776 /* VC3.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VC3.h; sourceTree = "<group>"; };
+		515D1C3120A95416000C2776 /* VC3.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VC3.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +81,13 @@
 				515D1C0820A94E29000C2776 /* AppDelegate.m */,
 				515D1C0A20A94E29000C2776 /* ViewController.h */,
 				515D1C0B20A94E29000C2776 /* ViewController.m */,
+				515D1C2A20A95146000C2776 /* VC1.h */,
+				515D1C2B20A95146000C2776 /* VC1.m */,
+				515D1C2D20A95151000C2776 /* VC2.h */,
+				515D1C2E20A95151000C2776 /* VC2.m */,
+				515D1C3020A95416000C2776 /* VC3.h */,
+				515D1C3120A95416000C2776 /* VC3.m */,
+				515D1C1F20A94EAF000C2776 /* NinaPagerView */,
 				515D1C0D20A94E29000C2776 /* Main.storyboard */,
 				515D1C1020A94E2A000C2776 /* Assets.xcassets */,
 				515D1C1220A94E2A000C2776 /* LaunchScreen.storyboard */,
@@ -69,6 +95,20 @@
 				515D1C1620A94E2A000C2776 /* main.m */,
 			);
 			path = Page;
+			sourceTree = "<group>";
+		};
+		515D1C1F20A94EAF000C2776 /* NinaPagerView */ = {
+			isa = PBXGroup;
+			children = (
+				515D1C2020A94EAF000C2776 /* NinaBaseView.h */,
+				515D1C2120A94EAF000C2776 /* NinaBaseView.m */,
+				515D1C2220A94EAF000C2776 /* NinaPagerView.h */,
+				515D1C2320A94EAF000C2776 /* NinaPagerView.m */,
+				515D1C2420A94EAF000C2776 /* UIParameter.h */,
+				515D1C2520A94EAF000C2776 /* UIView+ViewController.h */,
+				515D1C2620A94EAF000C2776 /* UIView+ViewController.m */,
+			);
+			path = NinaPagerView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,7 +181,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				515D1C2820A94EAF000C2776 /* NinaPagerView.m in Sources */,
 				515D1C0C20A94E29000C2776 /* ViewController.m in Sources */,
+				515D1C2720A94EAF000C2776 /* NinaBaseView.m in Sources */,
+				515D1C2F20A95151000C2776 /* VC2.m in Sources */,
+				515D1C2C20A95146000C2776 /* VC1.m in Sources */,
+				515D1C2920A94EAF000C2776 /* UIView+ViewController.m in Sources */,
+				515D1C3220A95416000C2776 /* VC3.m in Sources */,
 				515D1C1720A94E2A000C2776 /* main.m in Sources */,
 				515D1C0920A94E29000C2776 /* AppDelegate.m in Sources */,
 			);
@@ -284,7 +330,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MEPD226U84;
 				INFOPLIST_FILE = Page/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -300,7 +348,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MEPD226U84;
 				INFOPLIST_FILE = Page/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
